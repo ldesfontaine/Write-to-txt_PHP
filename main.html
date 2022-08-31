@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecrire dans un txt</title>
+</head>
+<body>
+
+    <div>
+        <h1>Creation et ajout dans un txt</h1>
+        <span>
+            <form action="append.php" method="post">
+                <input type="text" name="FirstBox" id="FirstBox" placeholder="Quelque chose" required>
+                <input type="submit" value="envoyer">
+            </form>
+        </span>
+    </div>
+
+    <div>
+        <h1>Modification dans un fichier txt</h1>
+        <span>
+            <form action="edit.php" method="post">
+                <input type="text" name="SecondBox1" id="SecondBox1" placeholder="Target" required>
+                <input type="text" name="SecondBox2" id="SecondBox2" placeholder="Nouveau" required>
+                <input type="submit" value="envoyer">
+            </form>
+        </span>
+    </div>
+
+    <div>
+        <h1>Suppression dans un fichier txt</h1>
+        <span>
+            <form action="delete.php" method="post">
+                <input type="text" name="ThirdBox" id="ThirdBox" placeholder="Target" required>
+                <input type="submit" value="envoyer">
+            </form>
+        </span>
+    </div>
+
+    <div>
+        <h1>Affichage du fichier txt</h1>
+        <span>
+            <form action="affichage.php" method="post">
+                <input type="submit" value="Redirection">
+            </form>
+        </span>
+    </div>
+
+
+    
+</body>
+</html>

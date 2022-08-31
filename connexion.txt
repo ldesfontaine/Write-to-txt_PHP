@@ -1,0 +1,8 @@
+10.1.0.25;www.renault.fr/accueil.html;23/08/2022 09:04:45;Mozilla
+10.1.0.67;www.polymousse.fr/default.html;23/08/2014 09:05:16;Chrome
+10.1.0.137;www.peugeot.fr/fournisseurs.php;23/08/2022 09:05:18;Mozilla
+10.1.0.67;www.polymousse.fr/stock.php;23/08/2022 09:05:35;Inconnu
+10.1.0.25;www.renault.fr/fournisseurs.html;23/08/2022 09:05:37;Mozilla
+10.1.0.67;www.polymousse.fr/extranet.html;23/08/2022 09:05:45;Inconnu
+test
+test
