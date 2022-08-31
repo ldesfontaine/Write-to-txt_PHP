@@ -1,4 +1,7 @@
 <script src="main.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/mvp.css">
+<link rel="stylesheet" href="style.css">
+
 <?php
 if (isset($_POST['affichage']) && $_POST['affichage'] == 'Afficher') {
     $file = file('connexion.txt');

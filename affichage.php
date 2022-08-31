@@ -1,7 +1,8 @@
 <script src="main.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/mvp.css">
+<link rel="stylesheet" href="style.css">
 
-
-    
+<div>  
 <?php
 //On créer 2 bouttons pour choisir quelle affichage on veut
 echo '<form action="affichage.php" method="post">
