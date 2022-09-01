@@ -6,12 +6,17 @@
     <link rel="stylesheet" href="https://unpkg.com/mvp.css">
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ecrire dans un txt</title>
+    <script src="main.js">
+        
+    </script>
+    <title>PHP && TXT</title>
 </head>
-<body>
 
+
+<body align="center">
+    <section>
     <div>
-        <h1>Creation et ajout dans un txt</h1>
+        <h1>Ajout & Creation</h1>
         <span>
             <form action="append.php" method="post">
                 <input type="text" name="FirstBox" id="FirstBox" placeholder="Quelque chose" required>
@@ -20,8 +25,9 @@
         </span>
     </div>
 
+
     <div>
-        <h1>Modification dans un fichier txt</h1>
+        <h1>Modification</h1>
         <span>
             <form action="edit.php" method="post">
                 <input type="text" name="SecondBox1" id="SecondBox1" placeholder="Target" required>
@@ -31,8 +37,9 @@
         </span>
     </div>
 
+
     <div>
-        <h1>Suppression dans un fichier txt</h1>
+        <h1>Suppression</h1>
         <span>
             <form action="delete.php" method="post">
                 <input type="text" name="ThirdBox" id="ThirdBox" placeholder="Target" required>
@@ -41,16 +48,23 @@
         </span>
     </div>
 
+
     <div>
-        <h1>Affichage du fichier txt</h1>
+        <h1>Affichage</h1>
         <span>
             <form action="affichage.php" method="post">
                 <input type="submit" value="Redirection">
             </form>
         </span>
     </div>
+</section>
+
+<div id="ENBAS">
+    <p> Si il n'y a pas de changement, faite SHIFT + f5 (vider le cache)</p>
+    <div id="list"><iframe src="connexion.txt" width=600 height=400 frameborder=0 id="frame"></iframe></div>
+
+</div>
 
 
-    
 </body>
 </html>

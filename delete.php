@@ -3,16 +3,16 @@
 $target = $_POST['ThirdBox'];
 
 
-//on cherche la ligne ou le $target est present
+//on cherche la ligne ou $target est presente
 $line = file('connexion.txt');
-foreach ($line as $key => $value) {
-    if (strpos($value, $target) !== false) {
-        unset($line[$key]);
+foreach ($line as $key => $value) { //pour chaque ligne du fichier
+    if (strpos($value, $target) !== false) { //si la ligne contient $target
+        unset($line[$key]); //on supprime la ligne
     }
 }
 
-//on supprime la ligne ou l'occurence est presente
-file_put_contents('connexion.txt', implode('', $line));
+//on réecrit le fichier
+file_put_contents('connexion.txt', implode('', $line)); //implode permet de transformer un tableau en str
 
 //on redirige vers la page d'acceuil
 header('Location: main.html');

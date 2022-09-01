@@ -1,7 +1,7 @@
 body {
     padding: 5px;
     margin: 5px;
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
     justify-content: space-evenly;
     border: 1px solid lightgrey;
@@ -12,6 +12,15 @@ body {
 input[type=submit]:hover {
     transform: scale(1.1);
     transition: transform 200ms ease-in-out;
+    background-color:lightgrey;
+    color:black;
+    box-shadow: 0px 0px 0px 0.255px black;
+    
+}
+
+#ENBAS{
+    margin-top: 10%;
+    bottom: 60%;
     background-color:lightgrey;
     color:black;
     box-shadow: 0px 0px 0px 0.255px black;
