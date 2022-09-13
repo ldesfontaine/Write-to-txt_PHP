@@ -18,11 +18,8 @@ fclose($fp);
 
 //rediction vers main.html
 header('Location: main.html');
+
+//si marche pas rajouter ? >
 ?>
 
 
-
-
-
-
-?>
